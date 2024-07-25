@@ -3,6 +3,10 @@
 ## Project Overview
 This data analysis project aims to provide a snapshot of top 25 active Canadian stocks on July 20th, 2024. By using various aspects of Python and web scrapping, I am showcasing my skillset of Python, web scrapping, Jupyter and Pandas. 
 
+
+<img width="1140" alt="Screenshot - Web scrapping Yahoo 25 " src="https://github.com/user-attachments/assets/1338f479-eed0-42b0-8d4b-682b23b9434a">
+
+
 ### Data Source
 This data is directly sourced from [https://finance.yahoo.com/most-active/]. It contains detail information regarding active stocks recommended by Yahoo Finance.
 
