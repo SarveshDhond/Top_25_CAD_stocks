@@ -7,7 +7,7 @@ This data analysis project aims to provide a snapshot of the top 25 active Canad
 <img width="1140" alt="Screenshot - Web scrapping Yahoo 25 " src="https://github.com/user-attachments/assets/1338f479-eed0-42b0-8d4b-682b23b9434a">
 
 
-### Data Source
+## Data Source
 This data is directly sourced from [https://finance.yahoo.com/most-active/]. It contains detailed information regarding active stocks recommended by Yahoo Finance.
 
 ### Tools
@@ -16,7 +16,7 @@ This data is directly sourced from [https://finance.yahoo.com/most-active/]. It 
 - Jupyter library
 - Pandas Library
 
-### steps taken 
+## steps taken 
 
 #### BeautifulSoup and Requests
 
@@ -38,7 +38,7 @@ This data is directly sourced from [https://finance.yahoo.com/most-active/]. It 
 - After that I assigned the rows to its appropriate columns and called out df to get an exact snapshot of the webpage data table.
 
 
-### Limitation
+## Limitation
 
 - Yahoo uses 1 big list for all of its data in the table instead of a smaller individual list per stock, I had to manually adjust each list to fall into its column.
 - Also, as I had to delete some title columns, each stock had to be adjusted individually to its column which took some time. 
