@@ -1,22 +1,22 @@
 # Snapshot of top 25 active Canadian stocks on Yahoo stocks
 
-## Project Overview
+## PROJECT SUMMARY
 This data analysis project aims to provide a snapshot of the top 25 active Canadian stocks on July 20th, 2024. By using various aspects of Python and web scrapping, I am showcasing my skillset in Python, web scrapping, Jupyter, and Pandas. 
 
 
 <img width="1140" alt="Screenshot - Web scrapping Yahoo 25 " src="https://github.com/user-attachments/assets/1338f479-eed0-42b0-8d4b-682b23b9434a">
 
 
-## Data Source
+## DATA SOURCE
 This data is directly sourced from [https://finance.yahoo.com/most-active/]. It contains detailed information regarding active stocks recommended by Yahoo Finance.
 
-### Tools
+### PROJECT PREREQUISITE
 - Python
 - Web Scrapping
 - Jupyter library
 - Pandas Library
 
-## steps taken 
+## STEPS TAKEN
 
 #### BeautifulSoup and Requests
 
@@ -38,7 +38,7 @@ This data is directly sourced from [https://finance.yahoo.com/most-active/]. It 
 - After that I assigned the rows to its appropriate columns and called out df to get an exact snapshot of the webpage data table.
 
 
-## Limitation
+## LIMITATIONS
 
 - Yahoo uses 1 big list for all of its data in the table instead of a smaller individual list per stock, I had to manually adjust each list to fall into its column.
 - Also, as I had to delete some title columns, each stock had to be adjusted individually to its column which took some time. 
